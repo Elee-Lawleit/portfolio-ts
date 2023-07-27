@@ -19,7 +19,8 @@ export default function Home() {
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
-                  href="#"
+                  href="https://github.com/Elee-Lawleit/"
+                  target="_blank"
                   className="rounded-full bg-gray-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 hover:mb-1 hover:ml-1 transition-all duration-200 ease-in"
                 >
                   <svg
@@ -32,7 +33,8 @@ export default function Home() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/muhammad-ali-36a101216/"
+                  target="_blank"
                   className="rounded-full bg-gray-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#0a66c2] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 hover:mb-1 hover:ml-1 transition-all duration-200 ease-in"
                 >
                   <svg
@@ -45,7 +47,7 @@ export default function Home() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="mailto:alibutt200235@gmail.com"
                   className="rounded-full bg-gray-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 hover:mb-1 hover:ml-1 transition-all duration-200 ease-in"
                 >
                   <svg
@@ -63,7 +65,8 @@ export default function Home() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://pdfhost.io/v/YHJ7eSP2u_ResumeCV"
+                  target="_blank"
                   className="rounded-full bg-gray-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-lime-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 hover:mb-1 hover:ml-1 transition-all duration-200 ease-in"
                 >
                   <svg
