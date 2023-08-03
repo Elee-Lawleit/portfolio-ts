@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import {FunctionComponent} from "react"
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -15,7 +16,9 @@ const socials = [
   {name: "LinkedIn", href: "#"},
 ]
 
-export default function Navbar() {
+interface NavbarProps{}
+
+const Navbar: FunctionComponent<NavbarProps> = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -118,3 +121,5 @@ export default function Navbar() {
     </header>
   );
 }
+
+export default Navbar;

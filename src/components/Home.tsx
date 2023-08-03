@@ -1,4 +1,6 @@
-export default function Home() {
+import {FunctionComponent} from "react"
+interface HomeProps{}
+const Home: FunctionComponent<HomeProps> = () =>  {
   return (
     <>
       <div className="bg-white" id="/">
@@ -98,3 +100,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Home;
